@@ -1,5 +1,5 @@
 1.upto(100) do |i|
-  if i == 5
+  if i == 3
     puts "minds"
   else
 	puts i
