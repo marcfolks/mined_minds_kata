@@ -1,14 +1,11 @@
-def count()
-array = [*1..100]
+def count() 
+array = [*1..100] 
 count=0
-array.each do |i|
-   if i == 3
-   	array[count]= "mined"
-   end
-   counter+=1
- end
-end
+count +=1 
+array.each do |i| 
+    if i == 2 
+    	array[2]= "mined" 
+    end 
+end 
 
-
-	
-	
+end	
