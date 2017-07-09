@@ -13,9 +13,9 @@ class Testcounter < Minitest::Test
 	# 	assert_equal("minedminds",count(15))
 	# end
 	def test_3_return_mined
-		assert_equal("mined",count[2])
+		assert_equal("mined",count[9])
 	end
-	# def test_5_return_minds
-	# 	assert_equal("minds",count(5))
-	# end
+	 def test_5_return_minds
+	 	assert_equal("minds",count[20])
+	 end
 end
